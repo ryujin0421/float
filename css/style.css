@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: #333333;
+    padding:10px 0 10px 0;
+}
+
+#first{
+    background-color: #333333;
+}
+
+
+#first .clear {
+    clear:both;
+}
+
+#second{
+    background-color: #333333;
+    overflow: hidden;
+}
+
+#third{
+    background-color: #333333;
+}
+
+.img{
+    float: left;
+    padding-left: 135px;
+}
+
+
+
+.clearfix:after { 
+    display:block;
+    clear:both;
+    height:0px;
+    visibility:hidden;
+    content:".";
+}
